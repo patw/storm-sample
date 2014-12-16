@@ -27,7 +27,6 @@ mvn package
 
 Deploy Example script:
 
-#!/bin/sh
 scp target/<topology>.jar <storm client server>:
 scp src/main/resources/config.properties <storm client server>:
 ssh <storm client server> <<'ENDSSH'
